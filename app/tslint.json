@@ -1,0 +1,45 @@
+{
+  "rules": {
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "indent": [true, "spaces"],
+    "no-duplicate-variable": true,
+    "no-eval": true,
+    "no-internal-module": true,
+    "no-trailing-whitespace": true,
+    "no-var-keyword": true,
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": false,
+    "triple-equals": [true, "allow-null-check"],
+    "typedef-whitespace": [true, {
+      "call-signature": "nospace",
+      "index-signature": "nospace",
+      "parameter": "nospace",
+      "property-declaration": "nospace",
+      "variable-declaration": "nospace"
+    }],
+    "whitespace": [true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "curly": true,
+    "no-console": [true, "log"],
+    "no-unused-expression": true,
+    "max-file-line-count": [true, 300],
+    "max-line-length": [true, 150],
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "no-consecutive-blank-lines": true,
+    "object-literal-shorthand": true,
+
+    "jsx-no-lambda": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-react/rules"
+  ]
+}
