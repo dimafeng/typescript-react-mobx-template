@@ -38,6 +38,14 @@ npm run dev
 ```
 Open http://localhost:8888 in a web browser.
 
+## How to test & lint
+
+```$bash
+cd ./app
+npm run test
+npm run lint
+```
+
 ## How to build
 
 TODO
