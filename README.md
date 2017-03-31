@@ -1,8 +1,8 @@
-# Ready-to-use template of TypeScript application.
+# Ready-to-use template for a TypeScript application.
 
 ![typescript-template](typescript-template.gif)
 
-This is clean example of TypeScript application that uses:
+This is an example of TypeScript application that uses:
 
 * TypeScript 
 * React.js
@@ -10,6 +10,10 @@ This is clean example of TypeScript application that uses:
 * MobX
 * Rx.js
 * Jest
+* webpack 1
+* tslint
+
+It can be used as a template for a new application.
 
 ## Requirements
 
