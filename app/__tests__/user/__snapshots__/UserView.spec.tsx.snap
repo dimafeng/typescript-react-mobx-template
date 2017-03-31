@@ -1,10 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`UsersView should render proper DOM 1`] = `
+exports[`test UsersView should render proper DOM 1`] = `
 <div>
   <table
-    className="table"
-  >
+    className="table">
     <thead>
       <tr>
         <th>
@@ -28,12 +25,10 @@ exports[`UsersView should render proper DOM 1`] = `
           <a
             className="btn btn-primary"
             href="/user/1"
-            onClick={[Function]}
-          >
+            onClick={[Function]}>
             <span
               aria-hidden={true}
-              className="fa fa-info-circle"
-            />
+              className="fa fa-info-circle" />
           </a>
         </td>
       </tr>
@@ -48,12 +43,10 @@ exports[`UsersView should render proper DOM 1`] = `
           <a
             className="btn btn-primary"
             href="/user/2"
-            onClick={[Function]}
-          >
+            onClick={[Function]}>
             <span
               aria-hidden={true}
-              className="fa fa-info-circle"
-            />
+              className="fa fa-info-circle" />
           </a>
         </td>
       </tr>
