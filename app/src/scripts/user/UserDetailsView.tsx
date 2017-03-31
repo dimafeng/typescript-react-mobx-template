@@ -25,7 +25,7 @@ export class UsersDetailsView extends React.Component<Props, any> {
     render() {
         if (this.viewStore.user) {
             return (<div>
-                {this.viewStore.user.firstName}
+                <h1>{this.viewStore.user.firstName} {this.viewStore.user.lastName}</h1>
 
                 <table className="table">
                     <thead>
