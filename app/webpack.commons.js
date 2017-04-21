@@ -26,7 +26,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.(ts|tsx)$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /(node_modules|bower_components|__tests__)/,
                 loaders: ['react-hot-loader/webpack', 'ts-loader']
             },
             {
